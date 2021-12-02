@@ -6,5 +6,15 @@ module.exports = {
         'setTimeout.md'
       ]
     }
+  ],
+  '/npm/': [
+    {
+      text: 'NPM',
+      children: [
+        'arr-diff.md',
+        'cache-base.md',
+        'levn.md'
+      ]
+    }
   ]
 }
