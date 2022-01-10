@@ -3,7 +3,8 @@ module.exports = {
     {
       text: 'JS',
       children: [
-        'setTimeout-setInterval.md'
+        'setTimeout-setInterval.md',
+        'toString.md',
       ]
     }
   ],
