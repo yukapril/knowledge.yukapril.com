@@ -110,6 +110,14 @@ String(1E21)
 String(1000000000000000000000) // 返回字符串 1e+21
 ```
 
+7. 如果特别小，超过 `1e-7`，不论是按照科学计数法还是直接写数字，都会采用科学计数法表示
+
+```js
+String(0.0000001)
+// 等价于
+String(1e-7) // 返回字符串 1e-7
+```
+
 ## BigInt
 
 这个还没有进入正式规范。但大致是类似 `Number`
@@ -181,5 +189,4 @@ String(obj2)
 ## 参考
 
 [1] [ECMA-6 规范-ToString](https://262.ecma-international.org/6.0/#sec-tostring)
-
-[2] [window.setTimeout](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/BigInt)
+[2] [BigInt MDN](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/BigInt)

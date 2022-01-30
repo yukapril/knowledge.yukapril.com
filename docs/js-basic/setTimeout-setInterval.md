@@ -275,4 +275,4 @@ setTimeout(myMethodBind, 2000, 2) //=> [zero,one,two] two
 
 [1] [浏览器工作原理与实践](https://time.geekbang.org/column/article/134456)
 
-[2] [window.setTimeout](https://developer.mozilla.org/zh-CN/docs/Web/API/setTimeout)
+[2] [window.setTimeout MDN](https://developer.mozilla.org/zh-CN/docs/Web/API/setTimeout)
