@@ -189,4 +189,5 @@ String(obj2)
 ## 参考
 
 [1] [ECMA-6 规范-ToString](https://262.ecma-international.org/6.0/#sec-tostring)
+
 [2] [BigInt MDN](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/BigInt)
