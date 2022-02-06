@@ -5,7 +5,8 @@ module.exports = {
       children: [
         'setTimeout-setInterval.md',
         'toString.md',
-        'parseInt.md'
+        'parseInt.md',
+        'parseFloat.md'
       ]
     }
   ],

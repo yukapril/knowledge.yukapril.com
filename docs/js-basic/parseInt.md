@@ -106,8 +106,14 @@ parseInt('123abc', 12) //=> 24755
 
 这里要注意的就是，不是所有字符都是非法的，比如上面的例子 `parseInt('123abcd', 12)`。
 
+3. 如果带有负号，则负号可以提取出来，最后再拼接：
+
+```js
+parseInt('-12', 10)
+// 等价于
+- parseInt('12', 10) //=> -12
+```
+
 ## 参考
 
 [1] [浏览器工作原理与实践](https://time.geekbang.org/column/article/134456)
-
-[2] [window.setTimeout MDN](https://developer.mozilla.org/zh-CN/docs/Web/API/setTimeout)
