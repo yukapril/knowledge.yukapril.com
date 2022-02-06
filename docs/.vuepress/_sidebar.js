@@ -16,7 +16,8 @@ module.exports = {
       children: [
         'arr-diff.md',
         'cache-base.md',
-        'levn.md'
+        'levn.md',
+        'lru-cache.md'
       ]
     }
   ]
