@@ -2,7 +2,7 @@ module.exports = [
   {
     text: '项目部署教程',
     children: [
-      { text: 'Surge部署教程', link: '/publish-tutorial-surge/' }
+      { text: 'Surge部署教程', link: '/publish-tutorial-surge/surge.md' }
     ]
   },
   {
