@@ -82,6 +82,8 @@ surge --add xx2@xx.com
 
 ## 实践：把前端项目部署到 Surge
 
+本项目最终代码参考这里：[demo-surge](https://github.com/yukapril/demo-surge)
+
 ### 准备好要部署的代码
 
 ```bash
