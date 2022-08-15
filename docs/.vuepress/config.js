@@ -1,3 +1,5 @@
+const { defaultTheme } = require('@vuepress/theme-default')
+const { searchPlugin } = require('@vuepress/plugin-search')
 const navbar = require('./_navbar')
 const sidebar = require('./_sidebar')
 
@@ -13,22 +15,19 @@ module.exports = {
     ]
   ],
   dest: 'dist',
-  themeConfig: {
-    // logo: 'https://vuejs.org/images/logo.png',
+  theme: defaultTheme({
+    logo: '/images/logo.png',
     navbar,
     sidebar,
-    sidebarDepth: 1
-  },
+    sidebarDepth: 2
+  }),
   plugins: [
-    [
-      '@vuepress/plugin-search',
-      {
-        locales: {
-          '/': {
-            placeholder: 'Search'
-          }
+    searchPlugin({
+      locales: {
+        '/': {
+          placeholder: 'Search'
         }
       }
-    ]
+    })
   ]
 }
