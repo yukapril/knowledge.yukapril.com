@@ -1,4 +1,12 @@
 module.exports = {
+  '/publish-tutorial-surge/': [
+    {
+      text: 'Surge 部署教程',
+      children: [
+        'surge.md'
+      ]
+    }
+  ],
   '/js-basic/': [
     {
       text: 'JS',

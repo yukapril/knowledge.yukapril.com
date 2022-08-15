@@ -1,5 +1,11 @@
 module.exports = [
   {
+    text: '项目部署教程',
+    children: [
+      { text: 'Surge部署教程', link: '/publish-tutorial-surge/' }
+    ]
+  },
+  {
     text: '前端基础',
     children: [
       { text: 'JavaScript', link: '/js-basic/' }
