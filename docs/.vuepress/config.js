@@ -1,5 +1,5 @@
 const { defaultTheme } = require('@vuepress/theme-default')
-const { searchPlugin } = require('@vuepress/plugin-search')
+// const { searchPlugin } = require('@vuepress/plugin-search')
 const { docsearchPlugin } = require('@vuepress/plugin-docsearch')
 const navbar = require('./_navbar')
 const sidebar = require('./_sidebar')
@@ -23,13 +23,13 @@ module.exports = {
     sidebarDepth: 2
   }),
   plugins: [
-    searchPlugin({
-      locales: {
-        '/': {
-          placeholder: 'Search'
-        }
-      }
-    }),
+    // searchPlugin({
+    //   locales: {
+    //     '/': {
+    //       placeholder: 'Search'
+    //     }
+    //   }
+    // }),
     docsearchPlugin({
       apiKey: '27c09150cc54f0b5e8cff0d9bed07a02',
       indexName: 'knowledge',
