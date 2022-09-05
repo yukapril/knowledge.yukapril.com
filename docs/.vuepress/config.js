@@ -1,13 +1,12 @@
-const { defaultTheme } = require('@vuepress/theme-default')
-// const { searchPlugin } = require('@vuepress/plugin-search')
-const { docsearchPlugin } = require('@vuepress/plugin-docsearch')
-const navbar = require('./_navbar')
-const sidebar = require('./_sidebar')
+import { defineUserConfig, defaultTheme } from 'vuepress'
+import { searchPlugin } from '@vuepress/plugin-search'
+import navbar from './_navbar'
+import sidebar from './_sidebar'
 
-module.exports = {
+export default defineUserConfig({
   lang: 'zh-CN',
   title: '知识森林',
-  description: '',
+  description: '知识森林',
   head: [
     [
       'script',
@@ -23,17 +22,12 @@ module.exports = {
     sidebarDepth: 2
   }),
   plugins: [
-    // searchPlugin({
-    //   locales: {
-    //     '/': {
-    //       placeholder: 'Search'
-    //     }
-    //   }
-    // }),
-    docsearchPlugin({
-      apiKey: '27c09150cc54f0b5e8cff0d9bed07a02',
-      indexName: 'knowledge',
-      appId: 'EZWOJFX6W0'
+    searchPlugin({
+      locales: {
+        '/': {
+          placeholder: 'Search'
+        }
+      }
     })
   ]
-}
+})

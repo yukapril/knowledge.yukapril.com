@@ -1,4 +1,4 @@
-module.exports = {
+export default {
   '/publish-tutorial-surge/': [
     {
       text: 'Surge 部署教程',

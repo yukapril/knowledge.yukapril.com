@@ -1,4 +1,4 @@
-module.exports = [
+export default [
   {
     text: '项目部署教程',
     children: [
