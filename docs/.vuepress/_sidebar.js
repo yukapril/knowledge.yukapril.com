@@ -14,7 +14,8 @@ export default {
         'setTimeout-setInterval.md',
         'toString.md',
         'parseInt.md',
-        'parseFloat.md'
+        'parseFloat.md',
+        'type.md'
       ]
     }
   ],
