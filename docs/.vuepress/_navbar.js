@@ -8,7 +8,8 @@ export default [
   {
     text: '前端基础',
     children: [
-      { text: 'JavaScript', link: '/js-basic/' }
+      { text: 'JavaScript', link: '/js-basic/' },
+      { text: '综合应用', link: '/practice/' }
     ]
   },
   {

@@ -19,6 +19,14 @@ export default {
       ]
     }
   ],
+  '/practice/': [
+    {
+      text: '综合应用',
+      children: [
+        'input.md'
+      ]
+    }
+  ],
   '/npm/': [
     {
       text: 'NPM',
