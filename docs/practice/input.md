@@ -71,6 +71,8 @@
 在 iOS 下，如果输入了非数字后（如 `234a`），使用 javascript 获取输入值，此时将为**空字符串**。
 但要注意的是字母 `e`，如 `23e4` 是合法数字，将得到字符串 `23e4`。
 
+注意：`type="number"`，是不支持 `maxlength` 的。`maxlength` 只能对 `text` `search` `url` `tel` `email` `password` 生效<sup>[[1]](#参考)</sup>。
+
 ### 写法6: input type="tel"
 
 ```html
