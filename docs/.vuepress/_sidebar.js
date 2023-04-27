@@ -23,7 +23,8 @@ export default {
     {
       text: '综合应用',
       children: [
-        'input.md'
+        'input.md',
+        'input-submit.md'
       ]
     }
   ],
