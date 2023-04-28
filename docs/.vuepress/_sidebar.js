@@ -1,12 +1,4 @@
 export default {
-  '/publish-tutorial-surge/': [
-    {
-      text: 'Surge 部署教程',
-      children: [
-        'surge.md'
-      ]
-    }
-  ],
   '/js-basic/': [
     {
       text: 'JS',
@@ -19,12 +11,20 @@ export default {
       ]
     }
   ],
-  '/practice/': [
+  '/practice/input/': [
     {
-      text: '综合应用',
+      text: '输入框及键盘处理',
       children: [
         'input.md',
         'input-submit.md'
+      ]
+    }
+  ],
+  '/publish-tutorial/surge/': [
+    {
+      text: 'Surge 部署教程',
+      children: [
+        'surge.md'
       ]
     }
   ],
