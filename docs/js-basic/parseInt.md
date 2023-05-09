@@ -1,3 +1,7 @@
+---
+sidebar_position: 3
+---
+
 # parseInt
 
 `parseInt` 是日常用于把字符串变成数字的常用方法。甚至有时候我们还用它进行取整。但这里面细节特别多，甚至有一些用法错误。
@@ -54,7 +58,8 @@ parseInt('0x123')
 parseInt('0x123', 16) //=> 291 
 ```
 
-如果不传参数，那么如果 `被解析的值` 是 `0` 开头（当然是长度超过 1 才算），那么默认可能当做 `8` 处理，也可能当做 `10` 处理。这一条仅在古老的浏览器有效，ECMAScript 5 之前。
+如果不传参数，那么如果 `被解析的值` 是 `0` 开头（当然是长度超过 1 才算），那么默认可能当做 `8` 处理，也可能当做 `10`
+处理。这一条仅在古老的浏览器有效，ECMAScript 5 之前。
 
 最后，默认当做 `10` 处理。
 
@@ -80,7 +85,8 @@ parseInt(String(15), 10)
 parseInt('15', 10)
 ```
 
-之后就可以按照参数是 `String` 的方式来处理了。具体 `ToString` 的逻辑，可以参考另一篇文章 [ToString 处理方案](/js-basic/toString.html)。
+之后就可以按照参数是 `String` 的方式来处理了。具体 `ToString`
+的逻辑，可以参考另一篇文章 [ToString 处理方案](/js-basic/toString)。
 
 > 最复杂的 `ToString`，我单独拆出来一篇文章单独讨论了，否则本文太长。
 
@@ -116,4 +122,4 @@ parseInt('-12', 10)
 
 ## 参考
 
-[1] [浏览器工作原理与实践](https://time.geekbang.org/column/article/134456)
+[1]&nbsp;[浏览器工作原理与实践](https://time.geekbang.org/column/article/134456)

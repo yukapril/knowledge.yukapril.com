@@ -1,3 +1,7 @@
+---
+sidebar_position: 1
+---
+
 # 输入框的键盘及按钮文案控制
 
 移动端项目中，有不少需要用户输入的地方，而默认弹出的键盘，一般为 `字母全键盘` 或者 `九宫格键盘`。
@@ -72,7 +76,8 @@
 在 iOS 下，如果输入了非数字后（如 `234a`），使用 javascript 获取输入值，此时将为**空字符串**。
 但要注意的是字母 `e`，如 `23e4` 是合法数字，将得到字符串 `23e4`。
 
-注意：`type="number"`，是不支持 `maxlength` 的。`maxlength` 只能对 `text` `search` `url` `tel` `email` `password` 生效<sup>[[1]](#参考)</sup>。
+注意：`type="number"`，是不支持 `maxlength` 的。`maxlength` 只能对 `text` `search` `url` `tel` `email` `password`
+生效<sup>[[1]](#参考)</sup>。
 
 ### 写法6: input type="tel"
 
@@ -203,14 +208,16 @@
 2. `inputmode` 只能控制键盘外观，但不能决定右下角提交按钮的效果；
 3. `inputmode` 的一些值，可以直接用对应的 `type` 属性来替代；
 4. 建议 `input` 嵌套在表单中，否则 `type` 对应的键盘提交按钮文案不能正常展示；
-   * 没有使用表单元素包裹，或者表单元素缺少 `action` 属性，直接显示 `换行`；
-   * 表单元素包裹且有 `action` 属性，默认展示 `前往`，如果是 `search` 类型，则展示 `搜索`；
+    * 没有使用表单元素包裹，或者表单元素缺少 `action` 属性，直接显示 `换行`；
+    * 表单元素包裹且有 `action` 属性，默认展示 `前往`，如果是 `search` 类型，则展示 `搜索`；
 5. 系统自带输入法和安装第三方输入法区别不是很大。第三方输入法主要在 UI 样式有细微差别，功能基本同系统自带输入法；
 6. `字母全键盘` 功能全面，不同的类型模式下会有差异，而 `九宫格键盘` 由于展示的按键较少，很多时候区别不大；
-7. 系统自带输入法，默认有输入控制能力，比如 `inputmode=decimal`，只能输入数字和小数点。但是第三方键盘（如搜狗），可能允许用户切换输入方式，此时仍然可以输入字母等。故一定要进行数据验证。
+7. 系统自带输入法，默认有输入控制能力，比如 `inputmode=decimal`
+   ，只能输入数字和小数点。但是第三方键盘（如搜狗），可能允许用户切换输入方式，此时仍然可以输入字母等。故一定要进行数据验证。
 
 ## 参考
 
-[1] [input MDN](https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element/input)
 
-[2] [inputmode MDN](https://developer.mozilla.org/zh-CN/docs/Web/HTML/Global_attributes/inputmode)
+[1]&nbsp;[input MDN](https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element/input)
+
+[2]&nbsp;[inputmode MDN](https://developer.mozilla.org/zh-CN/docs/Web/HTML/Global_attributes/inputmode)

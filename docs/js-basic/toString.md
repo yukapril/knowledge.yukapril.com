@@ -1,3 +1,7 @@
+---
+sidebar_position: 2
+---
+
 # ToString 处理方案
 
 一个值，执行 `String(value)` 后，有的时候相当于调用自身的 `value.toString()` 方法，有时候又是规定规范返回值。此外，针对数字转字符串，还有一些坑。
@@ -188,6 +192,6 @@ String(obj2)
 
 ## 参考
 
-[1] [ECMA-6 规范-ToString](https://262.ecma-international.org/6.0/#sec-tostring)
+[1]&nbsp;[ECMA-6 规范-ToString](https://262.ecma-international.org/6.0/#sec-tostring)
 
-[2] [BigInt MDN](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/BigInt)
+[2]&nbsp;[BigInt MDN](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/BigInt)

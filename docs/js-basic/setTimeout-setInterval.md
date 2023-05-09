@@ -1,3 +1,7 @@
+---
+sidebar_position: 1
+---
+
 # setTimeout 与 setInterval
 
 `setTimeout` 可以起到延迟一定时间后，再执行函数，以及实现异步效果。 除此外，`setInterval` 可以进行重复的执行函数，相当于嵌套调用 `setTimeout`。
@@ -10,7 +14,7 @@
 
 `setTimeout` 的语法：
 
-```
+```js
 var timeoutID = scope.setTimeout(function[, delay, arg1, arg2, ...]);
 var timeoutID = scope.setTimeout(function[, delay]);
 var timeoutID = scope.setTimeout(code[, delay]);
@@ -273,6 +277,6 @@ setTimeout(myMethodBind, 2000, 2) //=> [zero,one,two] two
 
 ## 参考
 
-[1] [浏览器工作原理与实践](https://time.geekbang.org/column/article/134456)
+[1]&nbsp;[浏览器工作原理与实践](https://time.geekbang.org/column/article/134456)
 
-[2] [window.setTimeout MDN](https://developer.mozilla.org/zh-CN/docs/Web/API/setTimeout)
+[2]&nbsp;[window.setTimeout MDN](https://developer.mozilla.org/zh-CN/docs/Web/API/setTimeout)

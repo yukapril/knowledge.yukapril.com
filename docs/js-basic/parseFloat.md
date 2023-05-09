@@ -1,3 +1,7 @@
+---
+sidebar_position: 4
+---
+
 # parseFloat
 
 `parseFloat` 用于把字符串转化为浮点数字。
@@ -14,7 +18,7 @@ parseFloat(string)
 
 1. 首先是参数要转化为字符串（如果不是的话）。
 
-之后就可以按照参数是 `String` 的方式来处理了。具体 `ToString` 的逻辑，可以参考另一篇文章 [ToString 处理方案](/js-basic/toString.html)。
+之后就可以按照参数是 `String` 的方式来处理了。具体 `ToString` 的逻辑，可以参考另一篇文章 [ToString 处理方案](/js-basic/toString)。
 
 2. 看字符串前面是否有空格之类，有的话可以忽略，如：
 
@@ -66,4 +70,4 @@ parseFloat('-1.8e308') //=> -Infinity
 
 ## 参考
 
-[1] [window.setTimeout MDN](https://developer.mozilla.org/zh-CN/docs/Web/API/setTimeout)
+[1]&nbsp;[window.setTimeout MDN](https://developer.mozilla.org/zh-CN/docs/Web/API/setTimeout)
