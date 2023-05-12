@@ -1,3 +1,7 @@
+---
+sidebar_position: 5
+---
+
 # javascript 判断类型的方法
 
 在前端项目中，很多时候都要判断对象的类型，根据类型进一步再做处理。判断类型的方法上，有很多方式方法。本文进行依次讨论。
@@ -178,7 +182,9 @@ console.log({} instanceof Object) //=> true
 console.log((() => {}) instanceof Function) //=> true
 console.log((() => {}) instanceof Object) //=> true
 class A {}
+
 class B extends A {}
+
 const b = new B()
 console.log(B instanceof A) //=> false
 console.log(b instanceof B) //=> true
@@ -253,8 +259,8 @@ Number.isFinite(Infinity) //=> 数字是否有限：false
 
 ## 参考
 
-[1] [ECMA-6 规范-object.prototype.tostring](https://262.ecma-international.org/6.0/#sec-object.prototype.tostring)
+[1]&nbsp;[ECMA-6 规范-object.prototype.tostring](https://262.ecma-international.org/6.0/#sec-object.prototype.tostring)
 
-[2] [从深入到通俗：Object.prototype.toString.call()](https://zhuanlan.zhihu.com/p/118793721)
+[2]&nbsp;[从深入到通俗：Object.prototype.toString.call()](https://zhuanlan.zhihu.com/p/118793721)
 
-[3] [instanceof实现的原理是什么？](https://zhuanlan.zhihu.com/p/521832918)
+[3]&nbsp;[instanceof实现的原理是什么？](https://zhuanlan.zhihu.com/p/521832918)
