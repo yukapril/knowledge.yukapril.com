@@ -67,21 +67,16 @@ const config = {
           ]
         },
         {
-          type: 'dropdown',
+          type: 'docSidebar',
           label: '项目部署',
-          position: 'left',
-          items: [
-            {
-              type: 'docSidebar',
-              label: 'Surge部署教程',
-              sidebarId: 'publishTutorialSurge'
-            }
-          ]
+          sidebarId: 'publishTutorial',
+          position: 'left'
         },
         {
           type: 'docSidebar',
           label: 'NPM 探索',
-          sidebarId: 'npm'
+          sidebarId: 'npm',
+          position: 'left'
         },
 
         // { to: '/blog', label: 'Blog', position: 'left' },
