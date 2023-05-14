@@ -22,7 +22,7 @@ sidebar_position: 5
 
 最基础最简单莫过于 `typeof` 了，语法非常简单。 使用 `typeof` 可以返回以下结果：
 
-```javascript
+```js
 const type = s => {
   return typeof s
 }
@@ -48,7 +48,7 @@ console.log(type(document.createElement('div'))) //=> object
 
 下面实现了一个方法，可以准确判断出基本类型，对于引用类型，直接默认都是 `object`：
 
-```javascript
+```js
 const type = s => {
   return s === null ? null : typeof s
 }
@@ -61,7 +61,7 @@ const type = s => {
 
 相应返回值参考如下：
 
-```javascript
+```js
 const type = s => {
   return s.constructor.name
 }
@@ -86,7 +86,7 @@ console.log(type(new Number(1))) //=> Number
 
 除了判断 `constructor.name` 外，有的项目可能直接用 `constructor` 来实现：
 
-```javascript
+```js
 const isNumber = s => {
   return s.constructor === Number
 }
@@ -100,7 +100,7 @@ console.log(isNumber(123)) //=> true
 这个是项目上非常常用的判断方式，原生的类型不论是基础类型还是引用类型，都可以一步到位。
 除非是对象继承没办法判断。而且它还可以直接识别包装类型，比如 `new Number(1)`，会认为是 `Number` 类型。
 
-```javascript
+```js
 const type = s => {
   return Object.prototype.toString.call(s)
 }
@@ -140,7 +140,7 @@ console.log(type(new Number(1))) //=> [object Number]
 
 项目中，为了判断省事，常常会对返回值进行截取及大小写处理，一般为：
 
-```javascript
+```js
 const type = s => {
   return Object.prototype.toString.call(s).slice(8, -1).toLowerCase()
 }
@@ -149,7 +149,7 @@ console.log(type('abc')) //=> string
 
 此外，有的项目可能用 `Reflect` 来实现：
 
-```javascript
+```js
 const type = s => {
   return Reflect.apply(Object.prototype.toString, s, [])
 }
@@ -157,7 +157,7 @@ const type = s => {
 
 返回的这个类型，一般叫做 tag。要注意的是，这个 tag 是可以人为干扰和定义的（参考<sup>[[2]](#参考)</sup>），比如如下逻辑：
 
-```javascript
+```js
 const o = {}
 o[Symbol.toStringTag] = "ASDF"
 console.log(Object.prototype.toString.call(o)) //=> [object ASDF]
@@ -171,13 +171,13 @@ console.log(Object.prototype.toString.call(o)) //=> [object ASDF]
 
 首先说明的是，`instanceof` 只能判断引用类型，基本类型是判断不了的。因为本质它查询的是继承关系。
 
-```javascript
+```js
 console.log('abc' instanceof 'abc') //=> TypeError
 console.log('abc' instanceof String) //=> false
 console.log(new String('abc') instanceof String) //=> true
 ```
 
-```javascript
+```js
 console.log({} instanceof Object) //=> true
 console.log((() => {}) instanceof Function) //=> true
 console.log((() => {}) instanceof Object) //=> true
@@ -195,7 +195,7 @@ console.log(b instanceof A) //=> true
 
 实际上，我们也可以自己模拟这个语法，参考<sup>[[3]](#参考)</sup>的代码，贴出如下：
 
-```javascript
+```js
 function myInstanceof (left, right) {
   let rightPrototype = right.prototype; // 获取构造函数的显式原型
   let leftProto = left.__proto__; // 获取实例对象的隐式原型
@@ -220,13 +220,13 @@ function myInstanceof (left, right) {
 
 对于数组判断，可以考虑使用：
 
-```javascript
+```js
 Array.isArray([]) //=> true
 ```
 
 对于数值类 `NaN` `Infinity` 等判断，可以使用以下方法，但要确保是传入是 `Number` 类型：
 
-```javascript
+```js
 Number.isNaN(NaN) //=> 数字是否是NaN：true
 Number.isFinite(Infinity) //=> 数字是否有限：false
 ```

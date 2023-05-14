@@ -217,7 +217,6 @@ sidebar_position: 1
 
 ## 参考
 
-
 [1]&nbsp;[input MDN](https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element/input)
 
 [2]&nbsp;[inputmode MDN](https://developer.mozilla.org/zh-CN/docs/Web/HTML/Global_attributes/inputmode)
