@@ -33,7 +33,6 @@ const config = {
       }
     ]
   ],
-
   themeConfig: {
     navbar: {
       title: '知识森林',
@@ -76,6 +75,12 @@ const config = {
           type: 'docSidebar',
           label: 'NPM 探索',
           sidebarId: 'npm',
+          position: 'left'
+        },
+        {
+          type: 'docSidebar',
+          label: '机械键盘客制化入门',
+          sidebarId: 'keyboard',
           position: 'left'
         },
 
