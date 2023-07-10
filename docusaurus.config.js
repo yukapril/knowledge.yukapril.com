@@ -112,7 +112,7 @@ const config = {
           ]
         }
       ],
-      copyright: `Copyright © ${ new Date().getFullYear() } yukaPriL. Built with Docusaurus.`
+      copyright: `Copyright © ${new Date().getFullYear()} yukaPriL. Built with Docusaurus.`
     },
     prism: {
       theme: lightCodeTheme,
@@ -132,6 +132,15 @@ const config = {
         blogRouteBasePath: '/blog'
 
       }
+    ]
+  ],
+  plugins: [
+    [
+      '@docusaurus/plugin-google-gtag',
+      {
+        trackingID: 'G-6HJVVRZJEF',
+        anonymizeIP: true,
+      },
     ]
   ]
 }
