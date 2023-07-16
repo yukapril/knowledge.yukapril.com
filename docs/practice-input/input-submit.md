@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# 输入框的键盘按钮控制
+# 输入框的键盘自动提交控制
 
 上篇文章提到键盘右下角，不同的 `type` 有不同的文案，本篇来研究如何实现该按钮的功能。
 
@@ -16,7 +16,7 @@ sidebar_position: 2
 
 ```html
 <div>
-    <input type="text" id="input1"/>
+  <input type="text" id="input1"/>
 </div>
 ```
 
@@ -45,9 +45,9 @@ input1.addEventListener('keyup', (e) => {
 
 ```html
 <form action="/submit/path" id="form">
-    <input type="text" id="input2"/>
-    <input type="text" id="input3"/>
-    <input type="button">submit</input>
+  <input type="text" id="input2"/>
+  <input type="text" id="input3"/>
+  <input type="button">submit</input>
 </form>
 ```
 

@@ -2,9 +2,9 @@
 sidebar_position: 3
 ---
 
-# 受控组件输入框处理
+# 输入框受控组件处理
 
-我们以原生 js、Vue 方案，来实现“只能输入 4 个数字的”输入框。
+我们以原生 js、Vue、React 方案，来实现“只能输入 4 个数字的”输入框。
 
 ## 原生输入框受控处理
 
@@ -39,49 +39,49 @@ function formatter (value) {
 </template>
 
 <script>
-/**
- * 输入内容字符串化
- */
-const Stringify = val => {
-  return (val === null || val === undefined) ? '' : String(val)
-}
+  /**
+   * 输入内容字符串化
+   */
+  const Stringify = val => {
+    return (val === null || val === undefined) ? '' : String(val)
+  }
 
-export default {
-  props: {
-    value: {
-      type: String
-    }
-  },
-  computed: {
-    inputListeners () {
-      return {
-        // 从父级添加所有的监听器
-        ...this.$listeners,
-        // 添加自定义监听器 input，实现 v-model
-        input: e => {
-          this.$emit('input', e.target.value, e)
-          // 保证原生的 input value 是可控的
-          this.$nextTick(this.setNativeInputValue)
+  export default {
+    props: {
+      value: {
+        type: String
+      }
+    },
+    computed: {
+      inputListeners() {
+        return {
+          // 从父级添加所有的监听器
+          ...this.$listeners,
+          // 添加自定义监听器 input，实现 v-model
+          input: e => {
+            this.$emit('input', e.target.value, e)
+            // 保证原生的 input value 是可控的
+            this.$nextTick(this.setNativeInputValue)
+          }
         }
       }
-    }
-  },
-  watch: {
-    // 输入框值改变时，将展示的原生的 input value 和 this 中的 input value 保持一致
-    value () {
-      this.setNativeInputValue()
-    }
-  },
-  methods: {
-    // 始终确保原生的 input value 同 this 中的 input value 保持一致
-    setNativeInputValue () {
-      const input = this.$refs.input
-      if (!input) return
-      if (input.value === Stringify(this.value)) return
-      input.value = Stringify(this.value)
+    },
+    watch: {
+      // 输入框值改变时，将展示的原生的 input value 和 this 中的 input value 保持一致
+      value() {
+        this.setNativeInputValue()
+      }
+    },
+    methods: {
+      // 始终确保原生的 input value 同 this 中的 input value 保持一致
+      setNativeInputValue() {
+        const input = this.$refs.input
+        if (!input) return
+        if (input.value === Stringify(this.value)) return
+        input.value = Stringify(this.value)
+      }
     }
   }
-}
 </script>
 ```
 
