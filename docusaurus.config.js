@@ -1,5 +1,8 @@
 const lightCodeTheme = require('prism-react-renderer/themes/github')
 const darkCodeTheme = require('prism-react-renderer/themes/dracula')
+const math = require('remark-math')
+const katex = require('rehype-katex')
+const navbar = require('./docusaurus.config.navbars')
 
 const HOST = 'https://knowledge.yukapril.com'
 
@@ -17,88 +20,38 @@ const config = {
   },
   presets: [
     [
-      'classic',
+      '@docusaurus/preset-classic',
       {
         docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
-          routeBasePath: '/'
+          routeBasePath: '/',
+          path: 'docs',
+          sidebarPath: require.resolve('./docusaurus.config.sidebars.js'),
+          remarkPlugins: [math],
+          rehypePlugins: [katex],
         },
         blog: {
+          routeBasePath: '/blog',
+          path: 'blog',
           showReadingTime: true,
-          routeBasePath: '/blog'
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css')
+        },
+        gtag: {
+          trackingID: 'G-6HJVVRZJEF',
+          anonymizeIP: true
         }
       }
     ]
   ],
+  stylesheets: [
+    {
+      href: 'https://cdn.jsdelivr.net/npm/katex@0.13.24/dist/katex.min.css',
+      type: 'text/css'
+    }
+  ],
   themeConfig: {
-    navbar: {
-      title: '知识森林',
-      logo: {
-        alt: '知识森林',
-        src: 'img/logo.png'
-      },
-      items: [
-        {
-          type: 'dropdown',
-          label: '前端基础',
-          position: 'left',
-          items: [
-            {
-              type: 'docSidebar',
-              label: 'Javascript',
-              sidebarId: 'javascript'
-            }
-          ]
-        },
-        {
-          type: 'dropdown',
-          label: '综合应用',
-          position: 'left',
-          items: [
-            {
-              type: 'docSidebar',
-              label: '输入框及键盘处理',
-              sidebarId: 'practiceInput'
-            }
-          ]
-        },
-        {
-          type: 'docSidebar',
-          label: '项目部署',
-          sidebarId: 'publishTutorial',
-          position: 'left'
-        },
-        {
-          type: 'docSidebar',
-          label: 'NPM 探索',
-          sidebarId: 'npm',
-          position: 'left'
-        },
-        {
-          type: 'docSidebar',
-          label: '机械键盘客制化入门',
-          sidebarId: 'keyboard',
-          position: 'left'
-        },
-
-        // { to: '/blog', label: 'Blog', position: 'left' },
-
-        {
-          type: 'dropdown',
-          label: '链接',
-          position: 'right',
-          items: [
-            {
-              label: '博客',
-              href: 'https://www.yukapril.com'
-            }
-          ]
-        }
-      ]
-    },
+    navbar,
     footer: {
       style: 'dark',
       links: [
@@ -130,17 +83,7 @@ const config = {
         indexPages: true,
         docsRouteBasePath: '/',
         blogRouteBasePath: '/blog'
-
       }
-    ]
-  ],
-  plugins: [
-    [
-      '@docusaurus/plugin-google-gtag',
-      {
-        trackingID: 'G-6HJVVRZJEF',
-        anonymizeIP: true,
-      },
     ]
   ]
 }
