@@ -21,7 +21,10 @@ jobs:
           node-version: "16"
 
       - name: Build project
-        run: npm i && npm run build
+        run: |
+          npm i 
+          npm i @node-rs/jieba-linux-x64-gnu
+          npm run build
 
       - name: Upload COS
         uses: zkqiang/tencent-cos-action@v0.1.0
