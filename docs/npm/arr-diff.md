@@ -36,7 +36,7 @@ console.log(diff(a, b, c)) //=> ['a']
 ```js
 const a = ['a', 'b', 'c', 'd']
 const b = ['b', 'c']
-console.log(diff(b, c))
+console.log(diff(b, a))
 // 返回 []
 ```
 
