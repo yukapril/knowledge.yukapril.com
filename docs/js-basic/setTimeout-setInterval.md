@@ -154,9 +154,18 @@ setTimeout(cb, 0)
 
 具体参考源码[这里](https://source.chromium.org/chromium/chromium/src/+/master:third_party/blink/renderer/core/frame/dom_timer.cc;l=48)。
 
-而 `setInterval` 最小执行时间为 10ms。
+2023-10-26 测试发现：
 
-如果传入的延迟时间小于 10，那么就认为是 10ms。
+`setTimeout` chrome 系列新版浏览器，最小时间可以为 0，那么大约执行时机为 0.1 ms 左右。测试方法：
+
+```js
+console.time('timeout')
+setTimeout(() => { console.timeEnd('timeout') }, 0)
+```
+
+但是嵌套调用，仍然存在 4ms 时间间隔。
+
+但是，`setInterval` 最小时间间隔则仍为 1ms（即传入 0，当作 1 看待）。嵌套调用，也是 4ms。<sup>[[3]](#参考)</sup>
 
 #### 第三，如果页面未激活，那么延迟时间最小为 1000ms。
 
@@ -273,10 +282,13 @@ setTimeout(myMethodBind, 2000, 2) //=> [zero,one,two] two
 
 解法3：改写原生 `setTimeout` `setInterval`。
 
-此方案过于生猛，请直接参考[MDN 这里](https://developer.mozilla.org/zh-CN/docs/Web/API/setTimeout#%E5%8F%AF%E8%83%BD%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88)
+此方案过于生猛，请直接参考[MDN 这里](https://developer.mozilla.org/zh-CN/docs/Web/API/setTimeout#%E5%8F%AF%E8%83%BD%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88)。
 
 ## 参考
 
 [1]&nbsp;[浏览器工作原理与实践](https://time.geekbang.org/column/article/134456)
 
 [2]&nbsp;[window.setTimeout MDN](https://developer.mozilla.org/zh-CN/docs/Web/API/setTimeout)
+
+[3]&nbsp;[为什么这段代码在Chrome环境中不符合事件循环机制？](https://www.zhihu.com/question/619560968/answer/3188678764)
+
