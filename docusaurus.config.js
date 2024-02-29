@@ -1,5 +1,6 @@
-const lightCodeTheme = require('prism-react-renderer/themes/github')
-const darkCodeTheme = require('prism-react-renderer/themes/dracula')
+const {themes} = require('prism-react-renderer')
+const lightTheme = themes.github
+const darkTheme = themes.dracula
 const math = require('remark-math')
 const katex = require('rehype-katex')
 const navbar = require('./docusaurus.config.navbars')
@@ -68,8 +69,9 @@ const config = {
       copyright: `Copyright © ${new Date().getFullYear()} yukaPriL. Built with Docusaurus.`
     },
     prism: {
-      theme: lightCodeTheme,
-      darkTheme: darkCodeTheme
+      theme: lightTheme,
+      darkTheme: darkTheme,
+      additionalLanguages: ['bash', 'diff', 'json'],
     }
   },
   themes: [
