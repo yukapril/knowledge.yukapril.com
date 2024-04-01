@@ -15,9 +15,9 @@
     "dev": "docusaurus start"
   },
   "dependencies": {
-    "@docusaurus/core": "3.1.1",
-    "@docusaurus/plugin-google-gtag": "3.1.1",
-    "@docusaurus/preset-classic": "3.1.1",
+    "@docusaurus/core": "3.2.0",
+    "@docusaurus/plugin-google-gtag": "3.2.0",
+    "@docusaurus/preset-classic": "3.2.0",
     "@easyops-cn/docusaurus-search-local": "^0.40.1",
     "@mdx-js/react": "^3.0.1",
     "clsx": "^1.2.1",
@@ -29,8 +29,8 @@
     "remark-math": "^6.0.0"
   },
   "devDependencies": {
-    "@docusaurus/module-type-aliases": "3.1.1",
-    "@docusaurus/types": "3.1.1"
+    "@docusaurus/module-type-aliases": "3.2.0",
+    "@docusaurus/types": "3.2.0"
   },
   "browserslist": {
     "production": [
