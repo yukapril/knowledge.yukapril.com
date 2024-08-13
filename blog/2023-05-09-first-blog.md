@@ -5,3 +5,7 @@ authors: yukapril
 ---
 
 test
+
+<!-- truncate -->
+
+test

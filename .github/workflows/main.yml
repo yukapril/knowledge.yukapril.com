@@ -20,11 +20,13 @@ jobs:
         with:
           node-version: "18"
 
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 8
+
       - name: Build project
-        run: |
-          npm i 
-          npm i @node-rs/jieba-linux-x64-gnu
-          npm run build
+        run: pnpm i  && pnpm run build
 
       - name: Upload COS
         uses: zkqiang/tencent-cos-action@v0.1.0
