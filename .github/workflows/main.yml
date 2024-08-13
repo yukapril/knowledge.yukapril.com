@@ -27,8 +27,7 @@ jobs:
 
       - name: Build project
         run: |
-          pnpm i 
-          pnpm i @node-rs/jieba-linux-x64-gnu
+          pnpm i
           pnpm run build
 
       - name: Upload COS
