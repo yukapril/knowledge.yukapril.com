@@ -26,7 +26,10 @@ jobs:
           version: 8
 
       - name: Build project
-        run: pnpm i  && pnpm run build
+        run: |
+          pnpm i 
+          pnpm i @node-rs/jieba-linux-x64-gnu
+          pnpm run build
 
       - name: Upload COS
         uses: zkqiang/tencent-cos-action@v0.1.0
