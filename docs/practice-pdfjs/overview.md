@@ -46,7 +46,7 @@ sidebar_position: 2
 | `pdfDocumentProxy.getPageLabels()`            | 获取 PDF 文档中每一页的标签                |
 | `pdfDocumentProxy.getPageLayout()`            | 获取 PDF 文档的布局方式                  |
 | `pdfDocumentProxy.getPageMode()`              | 获取 PDF 文档的页面模式                  |
-| `pdfDocumentProxy.getViewerPreferences()`     |                                 |
+| `pdfDocumentProxy.getViewerPreferences()`     | 获取 PDF 文档中定义的查看器偏好设置            |
 | `pdfDocumentProxy.getOpenAction()`            |                                 |
 | `pdfDocumentProxy.getAttachments()`           | 获取 PDF 文档中的附件                   |
 | `pdfDocumentProxy.getJSActions()`             |                                 |
@@ -55,9 +55,9 @@ sidebar_position: 2
 | `pdfDocumentProxy.getPermissions()`           |                                 |
 | `pdfDocumentProxy.getMetadata()`              | 获取 PDF 文档的元信息                   |
 | `pdfDocumentProxy.getMarkInfo()`              |                                 |
-| `pdfDocumentProxy.getData()`                  |                                 |
-| `pdfDocumentProxy.saveDocument()`             |                                 |
-| `pdfDocumentProxy.getDownloadInfo()`          |                                 |
+| `pdfDocumentProxy.getData()`                  | 获取 PDF 原文档的 Unit8Array 格式数据     |
+| `pdfDocumentProxy.saveDocument()`             | 获取 PDF 修改后的 Unit8Array 格式数据     |
+| `pdfDocumentProxy.getDownloadInfo()`          | 获取 PDF 原文档的长度大小                 |
 | `pdfDocumentProxy.cleanup()`                  |                                 |
 | `pdfDocumentProxy.destroy()`                  |                                 |
 | `pdfDocumentProxy.cachedPageNumber()`         |                                 |
@@ -68,23 +68,23 @@ sidebar_position: 2
 
 ## PDFPageProxy
 
-| API                                | 描述              |
-|------------------------------------|-----------------|
-| `pdfPageProxy.pageNumber`          | 获取当前页码，从 `1` 开始 |
-| `pdfPageProxy.rotate`              | 获取当前页面旋转角度      |
-| `pdfPageProxy.ref`                 |                 |
-| `pdfPageProxy.userUnit`            |                 |
-| `pdfPageProxy.view`                |                 |
-| `pdfPageProxy.getViewport()`       |                 |
-| `pdfPageProxy.getAnnotations()`    |                 |
-| `pdfPageProxy.getJSActions()`      |                 |
-| `pdfPageProxy.filterFactory`       |                 |
-| `pdfPageProxy.isPureXfa`           |                 |
-| `pdfPageProxy.getXfa`              |                 |
-| `pdfPageProxy.render()`            |                 |
-| `pdfPageProxy.getOperatorList()`   |                 |
-| `pdfPageProxy.streamTextContent()` |                 |
-| `pdfPageProxy.getTextContent()`    |                 |
-| `pdfPageProxy.getStructTree()`     |                 |
-| `pdfPageProxy.cleanup()`           |                 |
-| `pdfPageProxy.stats`               |                 |
+| API                                | 描述                     |
+|------------------------------------|------------------------|
+| `pdfPageProxy.pageNumber`          | 获取当前页码，从 `1` 开始        |
+| `pdfPageProxy.rotate`              | 获取当前页面旋转角度             |
+| `pdfPageProxy.ref`                 |                        |
+| `pdfPageProxy.userUnit`            |                        |
+| `pdfPageProxy.view`                |                        |
+| `pdfPageProxy.getViewport()`       | 获取 PDF 当前页面的页面视窗       |
+| `pdfPageProxy.getAnnotations()`    |                        |
+| `pdfPageProxy.getJSActions()`      |                        |
+| `pdfPageProxy.filterFactory`       |                        |
+| `pdfPageProxy.isPureXfa`           |                        |
+| `pdfPageProxy.getXfa`              |                        |
+| `pdfPageProxy.render()`            | 将 PDF 视窗内容渲染到 canvas 上 |
+| `pdfPageProxy.getOperatorList()`   |                        |
+| `pdfPageProxy.streamTextContent()` |                        |
+| `pdfPageProxy.getTextContent()`    |                        |
+| `pdfPageProxy.getStructTree()`     |                        |
+| `pdfPageProxy.cleanup()`           |                        |
+| `pdfPageProxy.stats`               |                        |
