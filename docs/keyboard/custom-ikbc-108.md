@@ -18,7 +18,7 @@ Type-C 接口），这样键盘就带有接口了，你就可以随便给更换�
 
 ## IKBC F108 键盘拆解
 
-![IKBC F108](https://cdn0.yukapril.com/custom-ikbc-f108-1.jpeg-wm.white)
+![IKBC F108](https://cdn1.yukapril.com/knowledge/custom-ikbc-f108-1.jpeg)
 
 有些脏兮兮的 IKBC F108
 
@@ -28,17 +28,17 @@ Type-C 接口），这样键盘就带有接口了，你就可以随便给更换�
 
 拆开看看 IKBC F108 的正面，非常的脏。因为从来没有拆开过，所以内部的头发丝等比较多。拔下键帽后，后续会认真的清理。
 
-![IKBC F108](https://cdn0.yukapril.com/custom-ikbc-f108-2.jpeg-wm.white)
+![IKBC F108](https://cdn1.yukapril.com/knowledge/custom-ikbc-f108-2.jpeg)
 
 IKBC F108 正面比较脏，从未拆开清理过。
 
 再来看看内部线缆情况。
 
-![IKBC F108](https://cdn0.yukapril.com/custom-ikbc-f108-3.jpeg-wm.white)
+![IKBC F108](https://cdn1.yukapril.com/knowledge/custom-ikbc-f108-3.jpeg)
 
 IKBC F108 背板走线
 
-![IKBC F108](https://cdn0.yukapril.com/custom-ikbc-f108-4.jpeg-wm.white)
+![IKBC F108](https://cdn1.yukapril.com/knowledge/custom-ikbc-f108-4.jpeg)
 
 IKBC F108 主板走线
 
@@ -57,17 +57,17 @@ IKBC F108 主板走线
 USB Type-C 转接板需要直接暴露到键盘外部接口处。如果你的键盘线缆口太小，需要锉刀等工具，进行扩大。我的键盘在淘宝有合适的键线分离板，而且还附送键盘尾部的外壳，正好覆盖背板开槽。就是贵一点，25块，附送并焊接好一根
 PH 2.0 数据线。有一家店铺内容和它一样，还便宜不到 10 块钱。但是客服发给我一张尺寸图，明显安装不上的那种。所以我就买贵的这家了。
 
-![IKBC F108](https://cdn0.yukapril.com/custom-ikbc-f108-5.jpeg-wm.white)
+![IKBC F108](https://cdn1.yukapril.com/knowledge/custom-ikbc-f108-5.jpeg)
 
 收到时候忘记拍照了，这个是店家图片。
 
 如果你找不到合适的板子，那么可以买通用版本。下面图片这种，大概不到 5 毛钱一个。
 
-![IKBC F108](https://cdn0.yukapril.com/custom-ikbc-f108-6.jpeg-wm.white)
+![IKBC F108](https://cdn1.yukapril.com/knowledge/custom-ikbc-f108-6.jpeg)
 
 ### 转接板 `CC` 线
 
-**这里出现第一个大坑。**选择这个 Type-C 转接板时候，要注意它的焊点。常见几乎都是四个焊点，即 `V 电源 5V` `GND 接地` `D+`
+**这里出现第一个大坑。** 选择这个 Type-C 转接板时候，要注意它的焊点。常见几乎都是四个焊点，即 `V 电源 5V` `GND 接地` `D+`
 数据 `D-` 数据。这会影响数据线使用。
 
 我买的版本就没有所谓 `CC` 线焊点。如果你想用 C2C 的数据线，键盘直连电脑，那么需要有 `CC` 焊点，在 `CC` 焊点到 `GND` 之间增加一个
@@ -75,7 +75,7 @@ PH 2.0 数据线。有一家店铺内容和它一样，还便宜不到 10 块钱
 
 我的就是额外增加一个转接头，如下：
 
-![IKBC F108](https://cdn0.yukapril.com/custom-ikbc-f108-7.jpeg-wm.white)
+![IKBC F108](https://cdn1.yukapril.com/knowledge/custom-ikbc-f108-7.jpeg)
 
 使用 USB 转接头的 Type-C 数据线
 
@@ -86,7 +86,7 @@ PH 2.0 数据线。有一家店铺内容和它一样，还便宜不到 10 块钱
 
 ### 选对端子线头
 
-**这里开始第二个坑。**不是所有键盘端子线都是 PH 2.0。这里有 GH 1.25，ZH 1.5，PH 2.0，XH 2.54
+**这里开始第二个坑。** 不是所有键盘端子线都是 PH 2.0。这里有 GH 1.25，ZH 1.5，PH 2.0，XH 2.54
 几个规格。这个数字表示两根针孔之间的距离毫米数。这个建议用尺子量一下，比如我的 5Pin 接线端子，总宽度
 11mm，除去两边的边稍微厚一点，中间间距大概是 2.0mm。
 
@@ -99,7 +99,7 @@ PH 2.0 数据线。有一家店铺内容和它一样，还便宜不到 10 块钱
 
 结果收到后，我发现手里没有 USB 母口，只能暴力拆了一个充电头，用于临时走飞线测试。
 
-![IKBC F108](https://cdn0.yukapril.com/custom-ikbc-f108-8.jpeg-wm.white)
+![IKBC F108](https://cdn1.yukapril.com/knowledge/custom-ikbc-f108-8.jpeg)
 
 EasyLink U2U 临时焊接 USB 母口，测试质量。
 
@@ -107,9 +107,9 @@ EasyLink U2U 临时焊接 USB 母口，测试质量。
 
 ### 调整线序
 
-**接下来会遇到第三个坑。**如果你购买的端子线和键盘默认的顺序不同，那么需要自己改顺序。
+**接下来会遇到第三个坑。** 如果你购买的端子线和键盘默认的顺序不同，那么需要自己改顺序。
 
-![IKBC F108](https://cdn0.yukapril.com/custom-ikbc-f108-9.jpeg-wm.white)
+![IKBC F108](https://cdn1.yukapril.com/knowledge/custom-ikbc-f108-9.jpeg)
 
 一般规则是：V 电源-红色；GND 接地-黑色；D+ 数据-绿色；D- 数据-白色；外壳-黄色。
 
@@ -117,7 +117,7 @@ EasyLink U2U 临时焊接 USB 母口，测试质量。
 
 如果你的线缆颜色不标准，建议对照下图 USB 顺序，用万用表测量下。
 
-![IKBC F108](https://cdn0.yukapril.com/custom-ikbc-f108-10.png-wm.white)
+![IKBC F108](https://cdn1.yukapril.com/knowledge/custom-ikbc-f108-10.png)
 
 图片来源：https://www.jianshu.com/p/33498c6e865a
 
@@ -137,20 +137,20 @@ EasyLink U2U 临时焊接 USB 母口，测试质量。
 
 我自己在中间增加了一个 U2U 模块，焊接它比较麻烦，结果还是焊坏了一个。
 
-![IKBC F108](https://cdn0.yukapril.com/custom-ikbc-f108-11.jpeg-wm.white)
+![IKBC F108](https://cdn1.yukapril.com/knowledge/custom-ikbc-f108-11.jpeg)
 
 暴力焊接后，故障的 U2U。
 
-**这里算是第四个坑。**即如果手艺不太好，焊接部分比较多的话，建议选择成品键线分离（只需要组装，不用焊接），或者多购买一点材料备用。
+**这里算是第四个坑。** 即如果手艺不太好，焊接部分比较多的话，建议选择成品键线分离（只需要组装，不用焊接），或者多购买一点材料备用。
 
 **如果焊接不好，建议付费找专业人员代劳，比如手机维修店、电器维修店等。**
 
-焊接时候是五根线，可能对应四个焊点。**这里要不要算第五个坑呢。**就是黄色屏蔽线，一般可以接入 `GND` ，或者想办法焊接到 USB
+焊接时候是五根线，可能对应四个焊点。**这里要不要算第五个坑呢。** 就是黄色屏蔽线，一般可以接入 `GND` ，或者想办法焊接到 USB
 金属外壳上。也可以像我一样，干脆不接了。
 
 本来我是想焊接在 U2U 外壳上的，但是焊接发现需要长时间高温，使得 U2U 芯片比较危险。而且我黄色线没有预留太长，够不到屏蔽壳，干脆就放弃了。
 
-![IKBC F108](https://cdn0.yukapril.com/custom-ikbc-f108-12.jpeg-wm.white)
+![IKBC F108](https://cdn1.yukapril.com/knowledge/custom-ikbc-f108-12.jpeg)
 
 焊接后效果
 
@@ -160,13 +160,13 @@ EasyLink U2U 临时焊接 USB 母口，测试质量。
 
 ### 焊接后测试
 
-**焊接完成后，务必接上键盘进行测试。**以免最后都安装好了，发现有问题。
+**焊接完成后，务必接上键盘进行测试。** 以免最后都安装好了，发现有问题。
 
 不用安装螺丝等，直接接入电脑测试下效果，没问题再组装。
 
 ### 组装改装后的键盘
 
-![IKBC F108](https://cdn0.yukapril.com/custom-ikbc-f108-13.jpeg-wm.white)
+![IKBC F108](https://cdn1.yukapril.com/knowledge/custom-ikbc-f108-13.jpeg)
 
 后壳安装键线分离板及 U2U
 
@@ -174,13 +174,13 @@ EasyLink U2U 临时焊接 USB 母口，测试质量。
 
 为了防止电线乱跑，我用电工绝缘胶带粘贴了下。防止金属外壳接触到键盘背部接线。如果不加装 U2U，可以使用其他胶带固定，或者干脆不用固定。
 
-![IKBC F108](https://cdn0.yukapril.com/custom-ikbc-f108-14.jpeg-wm.white)
+![IKBC F108](https://cdn1.yukapril.com/knowledge/custom-ikbc-f108-14.jpeg)
 
 IKBC F108 键线分离接口
 
 由于买的配套套件，所以接口处尺寸特别合适。实现了无损改键线分离。
 
-![IKBC F108](https://cdn0.yukapril.com/custom-ikbc-f108-15.jpeg-wm.white)
+![IKBC F108](https://cdn1.yukapril.com/knowledge/custom-ikbc-f108-15.jpeg)
 
 ## 最后
 

@@ -23,18 +23,18 @@ VIA。
 
 如果你的键盘可以直接识别，那么可以忽略此步骤。否则可以这样操作进行开启 JSON 配置上传：
 
-![via](https://cdn0.yukapril.com/use-via-1.png-wm.white)
+![via](https://cdn1.yukapril.com/knowledge/use-via-1.png)
 
 点击最后一个齿轮进行“设置”，之后开启 “Show Design tab”，顶部就出现了第三个选项卡。
 
-![via](https://cdn0.yukapril.com/use-via-2.png-wm.white)
+![via](https://cdn1.yukapril.com/knowledge/use-via-2.png)
 
 点击第三个选项卡，选择 “Load Draft Definition” 即可。如果你的布局 JSON 不能识别，可以尝试开启 “Use V2 definitions (
 deprecated)” 选项。如果还不能识别，那么可能 JSON 文件无效。
 
 ## 功能区域说明
 
-![via](https://cdn0.yukapril.com/use-via-3.png-wm.white)
+![via](https://cdn1.yukapril.com/knowledge/use-via-3.png)
 
 页面顶部，四个选项卡，分别是 “键盘配置”、“键盘测试”、“键盘设计”、“设置”。
 
@@ -63,7 +63,7 @@ deprecated)” 选项。如果还不能识别，那么可能 JSON 文件无效�
 
 在 2 层空格右侧，有个按键已经定义为 `MO(3)`（表示瞬间切换到 3 层）。按这个键的同时，再按其他按键，就可以执行对应 3 层的功能了。
 
-![via](https://cdn0.yukapril.com/use-via-4.png-wm.white)
+![via](https://cdn1.yukapril.com/knowledge/use-via-4.png)
 
 如果要改变 3 层主键盘 `1` 的功能，改为字母 `A`。可以进行如下操作：
 
@@ -75,7 +75,7 @@ deprecated)” 选项。如果还不能识别，那么可能 JSON 文件无效�
 
 如图所示：
 
-![via](https://cdn0.yukapril.com/use-via-4.png-wm.white)
+![via](https://cdn1.yukapril.com/knowledge/use-via-4.png)
 
 这里次级选项卡区分为：
 
