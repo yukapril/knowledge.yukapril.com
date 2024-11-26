@@ -26,6 +26,11 @@ const docusaurusConfigNavbars = {
           type: 'docSidebar',
           label: '输入框及键盘处理',
           sidebarId: 'practiceInput'
+        },
+        {
+          type: 'docSidebar',
+          label: 'PDF.js 使用',
+          sidebarId: 'practicePdfjs'
         }
       ]
     },
