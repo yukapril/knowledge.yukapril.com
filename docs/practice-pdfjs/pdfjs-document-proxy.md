@@ -338,7 +338,3 @@ pdfDocumentLoadingTask.promise.then(pdfDocumentProxy => {
   })
 })
 ```
-
- 
-
-
