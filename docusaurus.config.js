@@ -34,6 +34,10 @@ const config = {
           routeBasePath: '/blog',
           path: 'blog',
           showReadingTime: true,
+          remarkPlugins: [math],
+          rehypePlugins: [katex],
+          blogSidebarCount: 20,
+          blogSidebarTitle: '最新文章',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css')
@@ -47,7 +51,7 @@ const config = {
   ],
   stylesheets: [
     {
-      href: 'https://cdn.jsdelivr.net/npm/katex@0.13.24/dist/katex.min.css',
+      href: 'https://cdn.jsdelivr.net/npm/katex@0.16.21/dist/katex.min.css',
       type: 'text/css'
     }
   ],
@@ -74,7 +78,11 @@ const config = {
       additionalLanguages: ['bash', 'diff', 'json'],
     }
   },
+  markdown: {
+    mermaid: true,
+  },
   themes: [
+    '@docusaurus/theme-mermaid',
     [
       require.resolve('@easyops-cn/docusaurus-search-local'),
       {

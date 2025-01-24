@@ -53,16 +53,23 @@ const docusaurusConfigNavbars = {
       position: 'left'
     },
 
-    // { to: '/blog', label: 'Blog', position: 'left' },
-
+    {
+      to: 'blog',
+      label: '博客',
+      position: 'right'
+    },
     {
       type: 'dropdown',
       label: '链接',
       position: 'right',
       items: [
         {
-          label: '博客',
-          href: 'https://www.yukapril.com'
+          label: '网站导航',
+          href: 'https://nav.fridaycoder.com'
+        },
+        {
+          label: '常用工具',
+          href: 'https://tool.fridaycoder.com'
         }
       ]
     }
