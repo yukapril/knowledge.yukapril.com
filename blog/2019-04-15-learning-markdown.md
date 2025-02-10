@@ -129,7 +129,7 @@ Ulysses 等，因为收费太贵，所以没接触过。
 #### 图片
 
 ```
-![LOGO](https://www.yukapril.com/logo.png)
+![LOGO](/img/logo.png)
 ```
 
 中括号内为图片 alt 内容，可以不写。

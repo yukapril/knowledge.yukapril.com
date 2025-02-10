@@ -87,12 +87,12 @@ tags: [ 开发板, 树莓派 ]
 
 **NodeJS 的服务安装**。之前的文章也写过具体的方法了，安装 nvm，来管理多版本 Node。如果网络不通畅，无法访问安装脚本，可以有代理方法。具体参见：
 
-[管理多版本 node -- nvm 的使用](https://www.yukapril.com/2020/03/13/nvm.html)
+[管理多版本 node -- nvm 的使用](/blog/2020/03/13/nvm)
 
-[使用 cloudflare 实现访问代理](https://www.yukapril.com/2020/03/14/cloudflare-proxy.html)
+[使用 cloudflare 实现访问代理](/blog/2020/03/14/cloudflare-proxy)
 
 **Docker 的安装**。终于自己也也补上了 Docker 文章。可以参见：
 
-[Docker 安装和简易入门](https://www.yukapril.com/2020/05/23/docker.html)
+[Docker 安装和简易入门](/blog/2020/05/23/docker)
 
 --END--

@@ -8,7 +8,7 @@ tags:  [js, 宏任务, 微任务]
 
 <!-- truncate -->
 
-之前的文章，[见此](https://www.yukapril.com/2021/07/25/interview-js3.html)。
+之前的文章，[见此](/blog/2021/07/25/interview-js3)。
 
 ## 题目
 
