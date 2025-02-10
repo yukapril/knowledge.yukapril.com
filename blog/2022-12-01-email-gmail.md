@@ -26,32 +26,32 @@ tags: [ email, 邮箱, 域名邮箱, cloudflare ]
 
 访问这里： [https://myaccount.google.com/apppasswords](https://myaccount.google.com/apppasswords)
 
-![设置应用专用密码](https://cdn.nlark.com/yuque/0/2022/png/86612/1669876674303-631b266e-8634-4ec2-b84d-0861f61c98f9.png)
+<img src="https://cdn.nlark.com/yuque/0/2022/png/86612/1669876674303-631b266e-8634-4ec2-b84d-0861f61c98f9.png" referrerpolicy="no-referrer" alt="设置应用专用密码" />
 
-选择 “其他（自定义名称）”，这样可以我们自己输入名称。我之前已经输入过了，是 “Email Send”。这样自定义名字，后续方便管理。
+选择 "其他（自定义名称）"，这样可以我们自己输入名称。我之前已经输入过了，是 "Email Send"。这样自定义名字，后续方便管理。
 
-输入完成后，点击“生成”即可。便会给出一个 16 位的密码。这个密码要记下，后续查不到了。
+输入完成后，点击"生成"即可。便会给出一个 16 位的密码。这个密码要记下，后续查不到了。
 
 ## 配置邮件代发
 
-在 Gmail 设置中，找到“账号和导入” - “用这个地址发送邮件” - “添加其他电子邮件地址”。因为我已经添加过了，所以这里有了账号。
+在 Gmail 设置中，找到"账号和导入" - "用这个地址发送邮件" - "添加其他电子邮件地址"。因为我已经添加过了，所以这里有了账号。
 
-![添加其他电子邮件地址](https://cdn.nlark.com/yuque/0/2022/png/86612/1669876680178-829c212a-c4af-45bd-b18d-f60202757686.png)
+<img src="https://cdn.nlark.com/yuque/0/2022/png/86612/1669876680178-829c212a-c4af-45bd-b18d-f60202757686.png" referrerpolicy="no-referrer" alt="添加其他电子邮件地址" />
 
 之后就可以打开一个弹出层。如果提示错误，关闭后重试即可。
 
-![添加账号弹出层](https://cdn.nlark.com/yuque/0/2022/png/86612/1669876686517-228bf301-5f97-4205-ab3f-0616c8afae58.png)
+<img src="https://cdn.nlark.com/yuque/0/2022/png/86612/1669876686517-228bf301-5f97-4205-ab3f-0616c8afae58.png" referrerpolicy="no-referrer" alt="添加账号弹出层" />
 
 弹出层里：
 
 * 名称：指对方看到的展示名字
 * 电子邮件地址：要代发的邮件地址，这里填写你的域名邮箱
-* 视为别名：建议勾选，这样可以发件箱中看到邮件。具体可以点击后面的 “了解详情” 查阅
+* 视为别名：建议勾选，这样可以发件箱中看到邮件。具体可以点击后面的 "了解详情" 查阅
 * 指定不同的回复地址：这个我是手动配置的，填写域名邮箱。我怕不指定的话，别人点击邮件回复，直接返回到我的 Gmail 邮箱了（应该是域名邮箱）。
 
 下一步，填写 SMTP 发送信息。这里要填写 Gmail 的信息。
 
-![配置代发 STMP](https://cdn.nlark.com/yuque/0/2022/png/86612/1669876691270-95bfabe9-0fab-48d8-8a83-b8444e90a8c9.png)
+<img src="https://cdn.nlark.com/yuque/0/2022/png/86612/1669876691270-95bfabe9-0fab-48d8-8a83-b8444e90a8c9.png" referrerpolicy="no-referrer" alt="配置代发 STMP" />
 
 其中：
 
@@ -62,13 +62,13 @@ tags: [ email, 邮箱, 域名邮箱, cloudflare ]
 
 完成后，会自动向你的域名邮箱发送一封邮件。要进行确认。
 
-![需要邮件确认](https://cdn.nlark.com/yuque/0/2022/png/86612/1669876696403-8175662f-8d71-44e4-9cea-8d92367cfd61.png)
+<img src="https://cdn.nlark.com/yuque/0/2022/png/86612/1669876696403-8175662f-8d71-44e4-9cea-8d92367cfd61.png" referrerpolicy="no-referrer" alt="需要邮件确认" />
 
 确认完成后，邮件代发操作就完成了。
 
 ## 发送邮件
 
-在 Gmail 中，点击“写邮件”，之后即可选择要发送邮件的账号，此时可以选择你配置的域名邮箱。
+在 Gmail 中，点击"写邮件"，之后即可选择要发送邮件的账号，此时可以选择你配置的域名邮箱。
 
 ## 发送邮件小结
 

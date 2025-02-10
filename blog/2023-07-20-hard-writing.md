@@ -18,7 +18,7 @@ tags: [ 写字 ]
 
 平时主要通过楷书入门这个。分上中下三册，上册笔画偏旁，中册间架结构，下册实战训练。
 
-![楷书入门3册](https://cdn.nlark.com/yuque/0/2023/jpeg/86612/1689858785145-8a39bead-2646-4b0a-8236-9113a5401d6e.jpeg)
+<img src="https://cdn.nlark.com/yuque/0/2023/jpeg/86612/1689858785145-8a39bead-2646-4b0a-8236-9113a5401d6e.jpeg" referrerpolicy="no-referrer" alt="楷书入门3册" />
 
 ## 聊聊装备吧
 
@@ -46,23 +46,23 @@ tags: [ 写字 ]
 
 一直没有统计过，自己都不知道自己写了多少，今天认真的数一下。晒晒图。
 
-![晒图](https://cdn.nlark.com/yuque/0/2023/jpeg/86612/1689858785148-2fd62c56-6613-49ee-9feb-c27e300f935b.jpeg)
+<img src="https://cdn.nlark.com/yuque/0/2023/jpeg/86612/1689858785148-2fd62c56-6613-49ee-9feb-c27e300f935b.jpeg" referrerpolicy="no-referrer" alt="晒图" />
 
-![晒图](https://cdn.nlark.com/yuque/0/2023/jpeg/86612/1689858785202-00e18cc8-77f9-42b7-af2b-9804bd50ea56.jpeg)
+<img src="https://cdn.nlark.com/yuque/0/2023/jpeg/86612/1689858785202-00e18cc8-77f9-42b7-af2b-9804bd50ea56.jpeg" referrerpolicy="no-referrer" alt="晒图" />
 
-![晒图](https://cdn.nlark.com/yuque/0/2023/jpeg/86612/1689858785248-34e7bf5d-21d9-4aed-9fbf-1bc552d625b6.jpeg)
+<img src="https://cdn.nlark.com/yuque/0/2023/jpeg/86612/1689858785248-34e7bf5d-21d9-4aed-9fbf-1bc552d625b6.jpeg" referrerpolicy="no-referrer" alt="晒图" />
 
-![晒图](https://cdn.nlark.com/yuque/0/2023/jpeg/86612/1689858785201-aa60c638-fa41-478b-ba16-0547e7b2cb37.jpeg)
+<img src="https://cdn.nlark.com/yuque/0/2023/jpeg/86612/1689858785201-aa60c638-fa41-478b-ba16-0547e7b2cb37.jpeg" referrerpolicy="no-referrer" alt="晒图" />
 
-![晒图](https://cdn.nlark.com/yuque/0/2023/jpeg/86612/1689858785865-e46c7a30-d2f5-4e6a-b518-eeba461ce889.jpeg)
+<img src="https://cdn.nlark.com/yuque/0/2023/jpeg/86612/1689858785865-e46c7a30-d2f5-4e6a-b518-eeba461ce889.jpeg" referrerpolicy="no-referrer" alt="晒图" />
 
-![晒图](https://cdn.nlark.com/yuque/0/2023/jpeg/86612/1689858785859-789464d0-cb76-4d21-a7c9-068842268cc7.jpeg)
+<img src="https://cdn.nlark.com/yuque/0/2023/jpeg/86612/1689858785859-789464d0-cb76-4d21-a7c9-068842268cc7.jpeg" referrerpolicy="no-referrer" alt="晒图" />
 
-![晒图](https://cdn.nlark.com/yuque/0/2023/jpeg/86612/1689858786002-15f917c4-065f-4e22-b592-b40635d9afe4.jpeg)
+<img src="https://cdn.nlark.com/yuque/0/2023/jpeg/86612/1689858786002-15f917c4-065f-4e22-b592-b40635d9afe4.jpeg" referrerpolicy="no-referrer" alt="晒图" />
 
-![晒图](https://cdn.nlark.com/yuque/0/2023/jpeg/86612/1689858785970-756f55db-b481-4aab-b27a-e6dfd6fa43bf.jpeg)
+<img src="https://cdn.nlark.com/yuque/0/2023/jpeg/86612/1689858785970-756f55db-b481-4aab-b27a-e6dfd6fa43bf.jpeg" referrerpolicy="no-referrer" alt="晒图" />
 
-![晒图](https://cdn.nlark.com/yuque/0/2023/jpeg/86612/1689858785822-28cb343c-0e0b-4152-8f7e-5df59bb38982.jpeg)
+<img src="https://cdn.nlark.com/yuque/0/2023/jpeg/86612/1689858785822-28cb343c-0e0b-4152-8f7e-5df59bb38982.jpeg" referrerpolicy="no-referrer" alt="晒图" />
 
 2019年，216页，157天，折算每天1.376页。
 

@@ -22,17 +22,17 @@ tags: [ email, 邮箱, 域名邮箱, 网易 ]
 
 随后即可进入默认赠送的网易域名的邮箱。整体还算干净简洁好用。此时还是默认送的域名，我们要改成自己的域名。
 
-![网易域名邮箱页面](https://cdn.nlark.com/yuque/0/2022/jpeg/86612/1668933696374-823084d7-cd17-4f28-8db3-8bd9d36a25c0.jpeg)
+<img src="https://cdn.nlark.com/yuque/0/2022/jpeg/86612/1668933696374-823084d7-cd17-4f28-8db3-8bd9d36a25c0.jpeg" referrerpolicy="no-referrer" alt="网易域名邮箱页面" />
 
-1、点击左上角头像，选择“管理后台”栏目。
+1、点击左上角头像，选择"管理后台"栏目。
 
-2、找到“组织机构管理”-“域名管理”。
+2、找到"组织机构管理"-"域名管理"。
 
-![域名管理栏目](https://cdn.nlark.com/yuque/0/2022/jpeg/86612/1668933720823-1c090f43-9404-4264-85af-0e0787f301ea.jpeg)
+<img src="https://cdn.nlark.com/yuque/0/2022/jpeg/86612/1668933720823-1c090f43-9404-4264-85af-0e0787f301ea.jpeg" referrerpolicy="no-referrer" alt="域名管理栏目" />
 
 3、点击验证中的域名，会提示如何配置，按此配置好即可。这一步验证，网易应该是定时轮询，所以需要等待比较久。
 
-![配置对应的CNAME](https://cdn.nlark.com/yuque/0/2022/jpeg/86612/1668933733937-7b552bf5-eaac-49bd-9d53-06863581ed23.jpeg)
+<img src="https://cdn.nlark.com/yuque/0/2022/jpeg/86612/1668933733937-7b552bf5-eaac-49bd-9d53-06863581ed23.jpeg" referrerpolicy="no-referrer" alt="配置对应的CNAME" />
 
 ## 网易域名邮箱使用体验
 
@@ -40,11 +40,11 @@ tags: [ email, 邮箱, 域名邮箱, 网易 ]
 
 同样的，也可以配置好域名邮箱首页。具体的 DNS 配置方法，参考[这里](https://qiye.163.com/help/dns.html#domain=test.com&display_domain=test.com)。
 
-> 配置的时候，注意选择“其他域名注册商”、“已备案”。这样直接会给出配置方法。方法中的第三步就是域名邮箱首页的配置。
+> 配置的时候，注意选择"其他域名注册商"、"已备案"。这样直接会给出配置方法。方法中的第三步就是域名邮箱首页的配置。
 
 进入邮箱后，页面非常干净简洁。
 
-![换绑域名后的首页](https://cdn.nlark.com/yuque/0/2022/jpeg/86612/1668933987312-bf964e40-569a-492e-af11-9ff9fdb66a00.jpeg)
+<img src="https://cdn.nlark.com/yuque/0/2022/jpeg/86612/1668933987312-bf964e40-569a-492e-af11-9ff9fdb66a00.jpeg" referrerpolicy="no-referrer" alt="换绑域名后的首页" />
 
 功能上，有外出回复、邮件分类、自动转发、反垃圾配置。功能稍微有点少。
 

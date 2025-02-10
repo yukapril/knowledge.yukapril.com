@@ -66,15 +66,15 @@ iPad 上确实有点难度。
 
 iPad 先通过浏览器找到 bt 或者磁链。比起种子文件，磁链更佳，不需要下载文件了。
 
-![通过群辉下载bt](https://cdn.nlark.com/yuque/0/2021/jpeg/86612/1633614864952-4be59207-8f85-4225-942d-e881dcdf9388.jpeg)
+<img src="https://cdn.nlark.com/yuque/0/2021/jpeg/86612/1633614864952-4be59207-8f85-4225-942d-e881dcdf9388.jpeg" referrerpolicy="no-referrer" alt="通过群辉下载bt" />
 
 之后通过群晖进行下载。 家里的树莓派也可以下载，甚至速度更快更好用（树莓派装了 qbittorrent）。但是树莓派后续如何把下载好的视频转移到 iPad 有点难度。我觉得要么开启网页服务器下载（需要装 nginx 或其他轻量服务器软件），要么走 FTP（配置复杂，而且 iPad 也需要 App 支持）。反正很难。
 
-![群辉下载到ipad](https://cdn.nlark.com/yuque/0/2021/jpeg/86612/1633614865000-d00b558d-21d2-488a-ad8a-fa3153c8f6ad.jpeg)
+<img src="https://cdn.nlark.com/yuque/0/2021/jpeg/86612/1633614865000-0e0bde7c-e0b1-4187-8395-a7e45fa726fc.jpeg" referrerpolicy="no-referrer" alt="群辉下载到ipad" />
 
 最后从群晖中找到下载好的文件，再下载到 iPad 上，就OK了。播放的话，默认常见格式都可以直接播放。
 
-![ipad播放](https://cdn.nlark.com/yuque/0/2021/png/86612/1633614865322-8839822a-f5fd-49f4-a26c-4f53872a9f64.png)
+<img src="https://cdn.nlark.com/yuque/0/2021/png/86612/1633614865322-8839822a-f5fd-49f4-a26c-4f53872a9f64.png" referrerpolicy="no-referrer" alt="ipad播放" />
 
 如果说那里不舒服，那就是 iPad 下载了。默认下载到 **iCloud 下载** 目录下，这样会自动同步 iCloud。有时候我会移动到 iPad 本机存储目录下。后来网上查才知道可以修改的。
 
@@ -101,7 +101,7 @@ iPad 先通过浏览器找到 bt 或者磁链。比起种子文件，磁链更�
 
 比如看 PDF 书籍、小说、网页内容，可以进行分屏。一边阅读一边记录。
 
-![ipad一边看PDF一边记录](https://cdn.nlark.com/yuque/0/2021/png/86612/1633614865321-fe674972-0d18-49a9-ba9e-1ab63b1e8fb2.png)
+<img src="https://cdn.nlark.com/yuque/0/2021/png/86612/1633614865321-fe674972-0d18-49a9-ba9e-1ab63b1e8fb2.png" referrerpolicy="no-referrer" alt="ipad一边看PDF一边记录" />
 
 前一阵看小说多，后续计划看 pdf 书籍。听说万能的淘宝有专门找书的，你提供 ISBN 号码，他能找到 pdf 资源。
 

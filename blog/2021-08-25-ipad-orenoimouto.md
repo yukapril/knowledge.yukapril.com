@@ -26,25 +26,25 @@ tags: [ 我的妹妹哪有这么可爱, 俺妹, iPad ]
 
 但是坦诚讲，效果并不满意。一是材质导致印刷效果毛糙，二是画面有少量裁剪（比如电击文库文字看不到了）。制作时候商家就给了效果图，说是搞定不了。
 
-![俺妹 黑猫if 上 15 正面](https://cdn.nlark.com/yuque/0/2021/jpeg/86612/1629816997968-9e9404bb-a317-4259-a041-a9ed4906e764.jpeg)
+<img src="https://cdn.nlark.com/yuque/0/2021/jpeg/86612/1629816997968-9e9404bb-a317-4259-a041-a9ed4906e764.jpeg" referrerpolicy="no-referrer" alt="俺妹 黑猫if 上 15 正面" />
 
-![俺妹 黑猫if 上 15 背面](https://cdn.nlark.com/yuque/0/2021/jpeg/86612/1629817090888-e883b0e0-e23e-4c0d-af97-eb20cadfa7b8.jpeg)
+<img src="https://cdn.nlark.com/yuque/0/2021/jpeg/86612/1629817090888-e883b0e0-e23e-4c0d-af97-eb20cadfa7b8.jpeg" referrerpolicy="no-referrer" alt="俺妹 黑猫if 上 15 背面" />
 
 这样做成书本的效果，模拟小说原本。
 
 翻开之后，需要先解锁，这个暂时没有什么好办法。没办法做到一步到位，直接阅读小说文字。
 
-![iPad 解锁](https://cdn.nlark.com/yuque/0/2021/jpeg/86612/1629817172222-63dd393a-9ec5-420e-8742-6717c1445ae3.jpeg)
+<img src="https://cdn.nlark.com/yuque/0/2021/jpeg/86612/1629817172222-63dd393a-9ec5-420e-8742-6717c1445ae3.jpeg" referrerpolicy="no-referrer" alt="iPad 解锁" />
 
 ### 小说
 
 点击图书，可以打开小说。会首先展示效果封面。这个和 iPad 套图案一致。
 
-![启动小说，先展示封面](https://cdn.nlark.com/yuque/0/2021/jpeg/86612/1629817270037-b6fbba03-2b08-4417-a183-ef2d0c407146.jpeg)
+<img src="https://cdn.nlark.com/yuque/0/2021/jpeg/86612/1629817270037-b6fbba03-2b08-4417-a183-ef2d0c407146.jpeg" referrerpolicy="no-referrer" alt="启动小说，先展示封面" />
 
 之后就可以看小说了。
 
-![小说内容](https://cdn.nlark.com/yuque/0/2021/jpeg/86612/1629817317077-cc0f8cb6-3f80-40db-ab86-f049c123cbb1.jpeg)
+<img src="https://cdn.nlark.com/yuque/0/2021/jpeg/86612/1629817317077-cc0f8cb6-3f80-40db-ab86-f049c123cbb1.jpeg" referrerpolicy="no-referrer" alt="小说内容" />
 
 第一次接触 iPad 看小说是非常痛快的，不用局限在一个手机小屏幕中了，有一种豁然开朗的感觉。
 
@@ -62,19 +62,19 @@ tags: [ 我的妹妹哪有这么可爱, 俺妹, iPad ]
 
 先直接上图：
 
-![俺妹-深色效果系](https://cdn.nlark.com/yuque/0/2021/jpeg/86612/1629817391444-4ebc2aab-341b-4d19-96d7-087617590f27.jpeg)
+<img src="https://cdn.nlark.com/yuque/0/2021/jpeg/86612/1629817391444-4ebc2aab-341b-4d19-96d7-087617590f27.jpeg" referrerpolicy="no-referrer" alt="俺妹-深色效果系" />
 
-![俺妹-简单](https://cdn.nlark.com/yuque/0/2021/jpeg/86612/1629817431102-c5153f6a-14ab-4547-a74c-7c7741253743.jpeg)
+<img src="https://cdn.nlark.com/yuque/0/2021/jpeg/86612/1629817431102-c5153f6a-14ab-4547-a74c-7c7741253743.jpeg" referrerpolicy="no-referrer" alt="俺妹-简单" />
 
-![俺妹-中等](https://cdn.nlark.com/yuque/0/2021/jpeg/86612/1629817468201-3233ece7-3f8c-4dfd-aa35-828f20921690.jpeg)
+<img src="https://cdn.nlark.com/yuque/0/2021/jpeg/86612/1629817468201-3233ece7-3f8c-4dfd-aa35-828f20921690.jpeg" referrerpolicy="no-referrer" alt="俺妹-中等" />
 
-![俺妹-插画](https://cdn.nlark.com/yuque/0/2021/jpeg/86612/1629817504675-d1372a64-c37d-4de1-a65d-31d9ec542d93.jpeg)
+<img src="https://cdn.nlark.com/yuque/0/2021/jpeg/86612/1629817504675-d1372a64-c37d-4de1-a65d-31d9ec542d93.jpeg" referrerpolicy="no-referrer" alt="俺妹-插画" />
 
-![re0-中等](https://cdn.nlark.com/yuque/0/2021/jpeg/86612/1629817542870-bc29ccd1-8b95-47db-ba60-12ee31e542c6.jpeg)
+<img src="https://cdn.nlark.com/yuque/0/2021/jpeg/86612/1629817542870-bc29ccd1-8b95-47db-ba60-12ee31e542c6.jpeg" referrerpolicy="no-referrer" alt="re0-中等" />
 
-![柯南-深色效果系](https://cdn.nlark.com/yuque/0/2021/jpeg/86612/1629817591916-19218407-0858-4c14-9db4-fba5848d75f9.jpeg)
+<img src="https://cdn.nlark.com/yuque/0/2021/jpeg/86612/1629817591916-19218407-0858-4c14-9db4-fba5848d75f9.jpeg" referrerpolicy="no-referrer" alt="柯南-深色效果系" />
 
-![柯南-常规四格](https://cdn.nlark.com/yuque/0/2021/jpeg/86612/1629817597536-3199a274-c958-400b-8dc4-799ad422104a.jpeg)
+<img src="https://cdn.nlark.com/yuque/0/2021/jpeg/86612/1629817597536-3199a274-c958-400b-8dc4-799ad422104a.jpeg" referrerpolicy="no-referrer" alt="柯南-常规四格" />
 
 拍照的效果感觉不能体现出它的魅力。但实际上手体验视觉冲击力极强。
 

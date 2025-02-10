@@ -34,17 +34,17 @@ CPU 可以选择（CPU-GPU-AI）
 
 周六收到货，晚上加班回家体验了 2 小时，今天体验了几个小时。简单拍拍图，说说感觉。
 
-![和 2015 老款比较-左侧](https://cdn.nlark.com/yuque/0/2021/jpeg/86612/1636887050999-a58e04cb-70c4-42b7-affb-5d0b1e8a069e.jpeg)
+<img src="https://cdn.nlark.com/yuque/0/2021/jpeg/86612/1636887050999-a58e04cb-70c4-42b7-affb-5d0b1e8a069e.jpeg" referrerpolicy="no-referrer" alt="和 2015 老款比较-左侧" />
 
 左侧接口回归 2015 款，主要是升级。特别是 MagSafe 充电器从第二代升级到第三代。尺寸是不一样的，新款更薄，所以不通用。而且新款改为 TypeC 接口，不再是和电源一体了。
 
-![和 2015 老款比较-右侧](https://cdn.nlark.com/yuque/0/2021/jpeg/86612/1636887050964-0e0bde7c-e0b1-4187-8395-a7e45fa726fc.jpeg)
+<img src="https://cdn.nlark.com/yuque/0/2021/jpeg/86612/1636887050964-0e0bde7c-e0b1-4187-8395-a7e45fa726fc.jpeg" referrerpolicy="no-referrer" alt="和 2015 老款比较-右侧" />
 
 右侧接口亦如此，常规升级，和 2015 款一致。特别的，SD 卡支持 UHS 二代了（就是两排金手指卡），速度更快了。
 
-![和 2015 老款比较-正面](https://cdn.nlark.com/yuque/0/2021/jpeg/86612/1636887051019-f08d03e0-672c-4fad-8812-0b6d1422f5e9.jpeg)
+<img src="https://cdn.nlark.com/yuque/0/2021/jpeg/86612/1636887051019-f08d03e0-672c-4fad-8812-0b6d1422f5e9.jpeg" referrerpolicy="no-referrer" alt="和 2015 老款比较-正面" />
 
-![和 2015 老款比较-背面](https://cdn.nlark.com/yuque/0/2021/jpeg/86612/1636887050971-9c38b0e2-92b1-4797-91e8-daad35c64f8f.jpeg)
+<img src="https://cdn.nlark.com/yuque/0/2021/jpeg/86612/1636887050971-9c38b0e2-92b1-4797-91e8-daad35c64f8f.jpeg" referrerpolicy="no-referrer" alt="和 2015 老款比较-背面" />
 
 正反面区别不大。主要是更加方正。
 
@@ -52,19 +52,19 @@ CPU 可以选择（CPU-GPU-AI）
 
 整体感觉没有老款结实，外壳有一种铝皮的感觉。但是实际还挺结实的。其实是底部电路板之类和底壳中间有空间，敲击起来是空空的感觉。
 
-![和 2015 老款比较-C面](https://cdn.nlark.com/yuque/0/2021/jpeg/86612/1636887051405-c65c143e-a5d3-461e-8841-c0058537531b.jpeg)
+<img src="https://cdn.nlark.com/yuque/0/2021/jpeg/86612/1636887051405-c65c143e-a5d3-461e-8841-c0058537531b.jpeg" referrerpolicy="no-referrer" alt="和 2015 老款比较-C面" />
 
 按钮主要在大小和手感上面。手感不错。
 
-![和 2015 老款比较-正面](https://cdn.nlark.com/yuque/0/2021/jpeg/86612/1636887053533-ca1b8a59-a4b6-4232-8a31-7405ff649f3c.jpeg)
+<img src="https://cdn.nlark.com/yuque/0/2021/jpeg/86612/1636887053533-ca1b8a59-a4b6-4232-8a31-7405ff649f3c.jpeg" referrerpolicy="no-referrer" alt="和 2015 老款比较-正面" />
 
-![和 2015 老款比较-边框](https://cdn.nlark.com/yuque/0/2021/jpeg/86612/1636887053683-1c75ed00-3fb6-4f9f-aae3-c567466ca944.jpeg)
+<img src="https://cdn.nlark.com/yuque/0/2021/jpeg/86612/1636887053683-1c75ed00-3fb6-4f9f-aae3-c567466ca944.jpeg" referrerpolicy="no-referrer" alt="和 2015 老款比较-边框" />
 
 确实，这一代是边框最小的。比起 iPad 之类都不觉得大。但是如何和手机相比，还是中规中矩吧。说实在的，窄边框这不很正常么，之前算是不正常吧。
 
-![和 2015 老款比较-刘海](https://cdn.nlark.com/yuque/0/2021/jpeg/86612/1636887053507-d42e94e9-e7e8-4e38-be57-f6619ec291b4.jpeg)
+<img src="https://cdn.nlark.com/yuque/0/2021/jpeg/86612/1636887053507-d42e94e9-e7e8-4e38-be57-f6619ec291b4.jpeg" referrerpolicy="no-referrer" alt="和 2015 老款比较-刘海" />
 
-![和 2015 老款比较-刘海](https://cdn.nlark.com/yuque/0/2021/jpeg/86612/1636887053537-9a612898-96c9-445b-b21a-6f2ad421f4fb.jpeg)
+<img src="https://cdn.nlark.com/yuque/0/2021/jpeg/86612/1636887053537-9a612898-96c9-445b-b21a-6f2ad421f4fb.jpeg" referrerpolicy="no-referrer" alt="和 2015 老款比较-刘海" />
 
 刘海我觉得还好，有的时候明显，有时候不明显。我并不感觉突兀。但是问题还挺多的，下文会说到。
 
@@ -84,11 +84,11 @@ CPU 可以选择（CPU-GPU-AI）
 
 刘海那地方使用起来真的要命。尤其是右侧我有很多图标。我用了 `iStat Menus` 后，原本不富裕的右侧几乎就没什么地方了。
 
-![刘海右侧](https://cdn.nlark.com/yuque/0/2021/jpeg/86612/1636887054006-673cd676-8ce4-43c9-819c-360e84998fbc.jpeg)
+<img src="https://cdn.nlark.com/yuque/0/2021/jpeg/86612/1636887054006-673cd676-8ce4-43c9-819c-360e84998fbc.jpeg" referrerpolicy="no-referrer" alt="刘海右侧" />
 
-这样后续再有图标，就会被“黑洞”吃掉了，看不到了。其实他还是存在的，只不过看不到而已。如果想看到，就要按住 “command” 同时，将不要的图标喂给“黑洞”，空间够的话，原本被吃掉的图标就会露出来了。
+这样后续再有图标，就会被"黑洞"吃掉了，看不到了。其实他还是存在的，只不过看不到而已。如果想看到，就要按住 "command" 同时，将不要的图标喂给"黑洞"，空间够的话，原本被吃掉的图标就会露出来了。
 
-此外还发现了一个可能是的 bug。正常情况下，刘海区域只是黑色，但是实际是存在空间的，鼠标可以进入，从另一侧滑出。但是忘记什么条件下了，鼠标从一侧直接到了另一侧，不能进入“黑洞”了。
+此外还发现了一个可能是的 bug。正常情况下，刘海区域只是黑色，但是实际是存在空间的，鼠标可以进入，从另一侧滑出。但是忘记什么条件下了，鼠标从一侧直接到了另一侧，不能进入"黑洞"了。
 
 而且右侧的区域，图标会根据数量大小等，进行调整间距。有一种两端对齐的感觉。
 

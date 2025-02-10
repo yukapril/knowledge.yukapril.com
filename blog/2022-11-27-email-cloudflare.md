@@ -28,11 +28,11 @@ tags: [ email, 邮箱, 域名邮箱, cloudflare ]
 
 左侧选择 `websites`。右边选择 `Add a site`。
 
-![添加站点](https://cdn.nlark.com/yuque/0/2022/png/86612/1669549820261-ca93c07b-2683-4b38-8a75-c4282916d2da.png)
+<img src="https://cdn.nlark.com/yuque/0/2022/png/86612/1669549820261-ca93c07b-2683-4b38-8a75-c4282916d2da.png" referrerpolicy="no-referrer" alt="添加站点" />
 
 之后让选择套餐，我们选择免费的 Free。
 
-![选择免费版本](https://cdn.nlark.com/yuque/0/2022/png/86612/1669549579839-556fee65-b880-4aac-9d80-f40dcea4529d.png)
+<img src="https://cdn.nlark.com/yuque/0/2022/png/86612/1669549579839-556fee65-b880-4aac-9d80-f40dcea4529d.png" referrerpolicy="no-referrer" alt="选择免费版本" />
 
 之后，cloudflare 会自动扫描你的域名 DNS 原有的配置，并帮你带入过来。这个不一定准，可以自己后续维护。
 
@@ -53,7 +53,7 @@ roan.ns.cloudflare.com
 
 左侧选择 `Email - Email Routing`，右侧选择 `routes`。
 
-![邮件转发配置](https://cdn.nlark.com/yuque/0/2022/png/86612/1669549608266-efbfbdf1-7298-4744-8608-d2a8cdab5486.png)
+<img src="https://cdn.nlark.com/yuque/0/2022/png/86612/1669549608266-efbfbdf1-7298-4744-8608-d2a8cdab5486.png" referrerpolicy="no-referrer" alt="邮件转发配置" />
 
 我们先要配置好 DNS 的 `MX` 记录，点击黄色区域的 `Enable Email Routing`，cloudflare 可以自动来配置。点击后，会提示要配置的内容选项（默认情况下都是 Missing 未配置状态），再次点击 `Enable Email Routing` 以及确认即可。
 
@@ -69,16 +69,6 @@ roan.ns.cloudflare.com
 
 点击 `Create address`，创建新的邮件转发。
 
-![创建邮件转发](https://cdn.nlark.com/yuque/0/2022/png/86612/1669549614041-00bb5313-ef82-4d18-a608-fe8e14861081.png)
+<img src="https://cdn.nlark.com/yuque/0/2022/png/86612/1669549614041-00bb5313-ef82-4d18-a608-fe8e14861081.png" referrerpolicy="no-referrer" alt="创建邮件转发" />
 
-输入自己希望的邮件名，即可配置。支持转发 `Send to` 和 `Drop` 丢弃邮件。
-
-### 配置所有邮件进行转发
-
-上面的方案，必须一个一个邮箱进行配置，如果你要配置的邮箱太多，或者超过 cloudflare 条数限制，那么可以试试 `Catch-all address`，把所有邮件都进行转发。
-
-默认是 `Drop` 丢弃邮件，可以配置成 `Send to` 邮件转发。
-
-配置完成后，注意把后面的状态从 `Disabled` 改成 `active` 才能生效。
-
---END--
+输入自己希望的邮件名，即可配置。支持转发 `

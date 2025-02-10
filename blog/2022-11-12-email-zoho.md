@@ -26,11 +26,11 @@ tags: [ email, 邮箱, 域名邮箱, zoho ]
 
 1、进入邮箱模块，会让你选择是自定义域名还是用他们的域名。这里选择自定义域名。
 
-![注册 zoho 域名邮箱](https://cdn.nlark.com/yuque/0/2022/jpeg/86612/1668240097267-a7f6a1d8-7e85-4a73-a6f1-97d44cc2f2a8.jpeg)
+<img src="https://cdn.nlark.com/yuque/0/2022/jpeg/86612/1668240097267-a7f6a1d8-7e85-4a73-a6f1-97d44cc2f2a8.jpeg" referrerpolicy="no-referrer" alt="注册 zoho 域名邮箱" />
 
 2、之后，选择页面最下面的免费计划。
 
-![选择免费计划](https://cdn.nlark.com/yuque/0/2022/jpeg/86612/1668240097590-e094a5c0-676c-46ef-ae2a-c7084aadcba1.jpeg)
+<img src="https://cdn.nlark.com/yuque/0/2022/jpeg/86612/1668240097590-e094a5c0-676c-46ef-ae2a-c7084aadcba1.jpeg" referrerpolicy="no-referrer" alt="选择免费计划" />
 
 3、在弹窗中添加自己的域名。
 
@@ -42,7 +42,7 @@ tags: [ email, 邮箱, 域名邮箱, zoho ]
 
 7、设置 DNS 映射。按它的要求，在你的 DNS 服务商那里配置好就行了。
 
-![配置 DNS](https://cdn.nlark.com/yuque/0/2022/jpeg/86612/1668240097759-71ceec47-f5ba-4737-b361-5cc8816e3189.jpeg)
+<img src="https://cdn.nlark.com/yuque/0/2022/jpeg/86612/1668240097759-71ceec47-f5ba-4737-b361-5cc8816e3189.jpeg" referrerpolicy="no-referrer" alt="配置 DNS" />
 
 8、剩下步骤，直接跳过。
 
@@ -52,13 +52,13 @@ tags: [ email, 邮箱, 域名邮箱, zoho ]
 
 使用的页面效果如下，免费版里面，我感觉是非常漂亮好用了。
 
-![zoho 邮箱效果](https://cdn.nlark.com/yuque/0/2022/jpeg/86612/1668240097581-7b894dd8-bd17-4a39-a8a2-1c2b91ee7bbc.jpeg)
+<img src="https://cdn.nlark.com/yuque/0/2022/jpeg/86612/1668240097581-7b894dd8-bd17-4a39-a8a2-1c2b91ee7bbc.jpeg" referrerpolicy="no-referrer" alt="zoho 邮箱效果" />
 
 因为是企业邮件，所以带有丰富的联系人、日历、任务、消息流等功能。
 
 邮箱配置上，也非常丰富。支持黑暗模式、过滤器、外出自动回复、反垃圾配置、批量导入导出邮件、代收邮件（免费版仅支持 POP3）、代发邮件（SMTP方式）等。
 
-![zoho 邮箱配置](https://cdn.nlark.com/yuque/0/2022/jpeg/86612/1668240097545-e889753a-d1c3-4256-afa2-72f524da2692.jpeg)
+<img src="https://cdn.nlark.com/yuque/0/2022/jpeg/86612/1668240097545-e889753a-d1c3-4256-afa2-72f524da2692.jpeg" referrerpolicy="no-referrer" alt="zoho 邮箱配置" />
 
 ## 小结
 
