@@ -50,8 +50,7 @@ jobs:
 
       - name: Deploy to COS
         run: |
-          ls -l
-          coscmd delete -r -f /
+          coscmd delete -r -f / || true
           coscmd -d upload -r build/ / 
 
       - name: Flush CDN
@@ -61,3 +60,4 @@ jobs:
           SECRET_KEY: ${{ secrets.CDN_SECRET_KEY }}
           PATHS: "https://knowledge.yukapril.com/"
           FLUSH_TYPE: "flush" # optional
+
