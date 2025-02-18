@@ -51,7 +51,7 @@ jobs:
       - name: Deploy to COS
         run: |
           coscmd delete -r -f /
-          coscmd -d upload -r dist/ / 
+          coscmd -d upload -r build/ / 
 
       - name: Flush CDN
         uses: keithnull/tencent-cloud-cdn-purge-cache@v1.0
