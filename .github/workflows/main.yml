@@ -50,6 +50,7 @@ jobs:
 
       - name: Deploy to COS
         run: |
+          ls -l
           coscmd delete -r -f /
           coscmd -d upload -r build/ / 
 
