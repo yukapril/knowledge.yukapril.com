@@ -76,25 +76,33 @@ const config = {
       theme: lightTheme,
       darkTheme: darkTheme,
       additionalLanguages: ['bash', 'diff', 'json'],
-    }
+    },
+    algolia: {
+      appId: '6D2LJ97N5B',
+      apiKey: 'f195fac5ce7bd9505a648c8c4218322c',  // 只读 API Key（不是管理员 Key）
+      indexName: 'knowledge_yukapril_com_6d2lj97n5b_pages',
+      contextualSearch: true, // 是否开启上下文搜索
+      searchParameters: {}, // 可选：传递给 Algolia API 的搜索参数
+      insights: true, // 是否启用 Algolia Insights（可选）
+    },
   },
   markdown: {
     mermaid: true,
   },
   themes: [
     '@docusaurus/theme-mermaid',
-    [
-      require.resolve('@easyops-cn/docusaurus-search-local'),
-      {
-        hashed: true,
-        language: ['en', 'zh'],
-        indexDocs: true,
-        indexBlog: true,
-        indexPages: true,
-        docsRouteBasePath: '/',
-        blogRouteBasePath: '/blog'
-      }
-    ]
+    // [
+    //   require.resolve('@easyops-cn/docusaurus-search-local'),
+    //   {
+    //     hashed: true,
+    //     language: ['en', 'zh'],
+    //     indexDocs: true,
+    //     indexBlog: true,
+    //     indexPages: true,
+    //     docsRouteBasePath: '/',
+    //     blogRouteBasePath: '/blog'
+    //   }
+    // ]
   ]
 }
 
