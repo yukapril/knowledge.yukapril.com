@@ -80,7 +80,7 @@ const config = {
     algolia: {
       appId: '6D2LJ97N5B',
       apiKey: 'f195fac5ce7bd9505a648c8c4218322c',  // 只读 API Key（不是管理员 Key）
-      indexName: 'knowledge_yukapril_com_6d2lj97n5b_pages',
+      indexName: 'Blog And Docs',
       contextualSearch: false, // 是否开启上下文搜索
       searchParameters: {}, // 可选：传递给 Algolia API 的搜索参数
       insights: true, // 是否启用 Algolia Insights（可选）
